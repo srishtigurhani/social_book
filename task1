@@ -1,0 +1,162 @@
+{
+    "workbench.editorAssociations": {
+        "*.csv": "default",
+        "*.ipynb": "jupyter-notebook"
+    },
+    "git.ignoreMissingGitWarning": true,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "git.allowForcePush": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true,
+        "suppressGitMissingWarning": true
+    },
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "html.format.indentHandlebars": true,
+    "editor.formatOnType": true,
+    "html.format.endWithNewline": true,
+    "html.format.indentInnerHtml": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "editor.formatOnPaste": true,
+    
+    "terminal.integrated.env.windows": {},
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E402,F841,F401,E302,E305,E501"
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.minimap.side": "left",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}",
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ],
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "remote.SSH.connectTimeout": 20,
+    "remote.SSH.maxReconnectionAttempts": 3,
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.suppressWindowsSshWarning": true,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        },
+        "dash (2)": {
+            "path": "/usr/bin/dash"
+        },
+        "sh": {
+            "path": "/bin/sh"
+        },
+        "screen": {
+            "path": "/usr/bin/screen"
+        }
+    },
+    "settingsSync.ignoredSettings": [],
+    "workbench.editor.untitled.hint": "hidden",
+    "git.confirmSync": false,
+    "editor.renderControlCharacters": true,
+    "python.languageServer": "Pylance",
+    "editor.inlineSuggest.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "workbench.sideBar.location": "right",
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "remote.SSH.configFile": "C:/credentials/config",
+    "workbench.startupEditor": "none",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "switch:command",
+        "push:command"
+    ],
+    "jupyter.askForKernelRestart": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.fastScrollSensitivity": 10,
+    "workbench.productIconTheme": "material-product-icons",
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+              },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "django-html"
+        ]
+       
+    },
+    "python.formatting.provider": "black",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+       
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.openDevTools": "flutter",
+    "vsicons.dontShowNewVersionMessage": true,
+    "search.useIgnoreFiles": false,
+    "[django-html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.formatting.yapfArgs": [
+        "--style={based_on_style: google, column_limit: 140, indent_width: 4}"
+    ],
+    "githubPullRequests.pullBranch": "never",
+    "tabnine.experimentalAutoImports": true
+}
